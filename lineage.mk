@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/ugglite/device.mk)
 
 # Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 PRODUCT_DEVICE := ugglite
 PRODUCT_BRAND := Xiaomi
@@ -40,4 +40,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 PRIVATE_BUILD_DESC="ugglite-user 7.1.2 N2G47H V9.1.2.0.NDFMIEI release-keys"
 
 # Unofficial build ID
-TARGET_UNOFFICIAL_BUILD_ID := Mbtt
+TARGET_UNOFFICIAL_BUILD_ID := Nayef
