@@ -36,8 +36,8 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 TARGET_VENDOR := Xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT=xiaomi/ugglite/ugglite:7.1.2/N2G47H/V9.1.2.0.NDFMIEI:user/release-keys \
-PRIVATE_BUILD_DESC="ugglite-user 7.1.2 N2G47H V9.1.2.0.NDFMIEI release-keys"
+    BUILD_FINGERPRINT=xiaomi/ugglite/ugglite:7.1.2/N2G47H/V10.2.1.0.NDFMIXM:user/release-keys \
+PRIVATE_BUILD_DESC="ugglite-user 7.1.2 N2G47H V10.2.1.0.NDFMIXM release-keys"
 
 # Unofficial build ID
 TARGET_UNOFFICIAL_BUILD_ID := Nayef
